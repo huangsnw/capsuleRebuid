@@ -7,10 +7,9 @@ import (
 )
 
 func AssembleRouters(engine *gin.Engine) *gin.Engine {
-	// 路由组
 	statistic := engine.Group("/statistic")
-	// 1. 详细数据
 	statistic.GET("/detailDate", controllers.DetailBloodPressure)
+	statistic.GET("/oneBP", controllers.LatestBloodPressure)
 
 	return engine
 }
