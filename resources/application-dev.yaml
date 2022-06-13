@@ -1,0 +1,25 @@
+appname: capsuleRebuid
+httpport: 8080
+runmode: dev
+autorender: false
+recoverpanic: false
+viewspath: myview
+
+# mysql配置
+mysqlurls: 1.15.189.106
+mysqlport: 3306
+mysqluser: root
+mysqlpass: Root123.
+mysqldb: healthcare
+
+# mongodb配置
+mongourls: 1.15.189.106
+mongoport: 27017
+mongouser: admin
+mongopass: Root123.
+mongodb: healthcare
+
+# redis配置
+redisurl: 1.15.189.106
+redisport: 6379
+
